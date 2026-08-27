@@ -1,1 +1,211 @@
-[]
+[
+  {
+    "id": 33032882242,
+    "source": "github-actions",
+    "simulator": "verilator",
+    "run_number": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242",
+    "head_branch": "master",
+    "head_sha": "6cb20010",
+    "event": "schedule",
+    "created_at": "2026-08-27T02:18:43Z",
+    "updated_at": "2026-08-27T04:05:44Z",
+    "run_started_at": "2026-08-27T02:18:43Z",
+    "duration_seconds": 6421,
+    "total_jobs": 17,
+    "passed_jobs": 17,
+    "failed_jobs": 0,
+    "skipped_jobs": 0,
+    "jobs": [
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-v",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:49Z",
+        "completed_at": "2026-08-27T04:05:43Z",
+        "duration_seconds": 4674,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798558",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-v"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:49Z",
+        "completed_at": "2026-08-27T03:35:01Z",
+        "duration_seconds": 2832,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798560",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / cv64a6_imafdc_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T02:53:27Z",
+        "duration_seconds": 339,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798571",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "cv64a6_imafdc_tests"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:49Z",
+        "completed_at": "2026-08-27T03:20:32Z",
+        "duration_seconds": 1963,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798574",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV64 Tier2 cv64a6_imafdc_sv39_hpdcache_wb / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T03:13:53Z",
+        "duration_seconds": 1565,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798575",
+        "arch": "rv64",
+        "config": "cv64a6_imafdc_sv39_hpdcache_wb",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:49Z",
+        "completed_at": "2026-08-27T03:25:09Z",
+        "duration_seconds": 2240,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798634",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T02:50:44Z",
+        "duration_seconds": 176,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798660",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T03:05:39Z",
+        "duration_seconds": 1071,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798663",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-csr-embedded-tests",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T02:51:25Z",
+        "duration_seconds": 217,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798666",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-csr-embedded-tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / cv32a6_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:50:47Z",
+        "completed_at": "2026-08-27T02:54:08Z",
+        "duration_seconds": 201,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798670",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "cv32a6_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / smoke-tests-cv32a65x",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:57:19Z",
+        "completed_at": "2026-08-27T03:00:03Z",
+        "duration_seconds": 164,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798671",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "smoke-tests-cv32a65x"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-arch-test",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T03:17:10Z",
+        "duration_seconds": 1762,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798674",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-arch-test"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / hwconfig_tests",
+        "conclusion": "success",
+        "started_at": "2026-08-27T03:00:00Z",
+        "completed_at": "2026-08-27T03:02:16Z",
+        "duration_seconds": 136,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798681",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "hwconfig_tests"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:53:30Z",
+        "completed_at": "2026-08-27T03:21:25Z",
+        "duration_seconds": 1675,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798686",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "dv-riscv-compliance"
+      },
+      {
+        "name": "RV32 Tier2 cv32a65x / coremark",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:51:28Z",
+        "completed_at": "2026-08-27T02:57:15Z",
+        "duration_seconds": 347,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798707",
+        "arch": "rv32",
+        "config": "cv32a65x",
+        "testcase": "coremark"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-tests-p",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:47:48Z",
+        "completed_at": "2026-08-27T02:59:58Z",
+        "duration_seconds": 730,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798749",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-tests-p"
+      },
+      {
+        "name": "RV32 Tier2 cv32a60x / dv-riscv-compliance",
+        "conclusion": "success",
+        "started_at": "2026-08-27T02:54:10Z",
+        "completed_at": "2026-08-27T03:21:45Z",
+        "duration_seconds": 1655,
+        "html_url": "https://github.com/minhthangbk/cva6/actions/runs/33032882242/job/98393798760",
+        "arch": "rv32",
+        "config": "cv32a60x",
+        "testcase": "dv-riscv-compliance"
+      }
+    ]
+  }
+]
